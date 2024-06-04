@@ -9,7 +9,7 @@ A Digital Object Counter is an entry-level counting device that employs essentia
 
 # Working Principle
 - **Object Detection**: When an object passes through the sensor, it interrupts the light beam, causing a change in the sensor's output signal.
-- **Monostable MV**: It generates trigger pulses output of this it fed into Astable MV
+- **Monostable MV**: It generates trigger pulses, output of this it fed into Astable MV Reset signal
 - **Astable MV**: It generates Square wave work as Clock signal for Counter IC
 - **Counter**: Which registers each signal as a count pulse.
 - **Display Update**: The counter IC processes the pulses and updates the 7-segment display to show the current count.
